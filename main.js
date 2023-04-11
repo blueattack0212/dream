@@ -1,4 +1,4 @@
-const API_KEY = "process.env.REACT_APP_API_KEY"; // 请替换为您的 API 密钥
+const API_KEY = process.env.REACT_APP_API_KEY; // 请替换为您的 API 密钥
 const API_URL = "https://api.openai.com/v1/chat/completions"; // 根据需要替换为相应的 API URL
 
 const dreamForm = document.getElementById("dreamForm");
