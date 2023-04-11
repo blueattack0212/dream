@@ -39,7 +39,7 @@ const requestBody = {
 
     // 发送请求并处理响应
     try {
-        const response = await fetch(API_URL, requestOptions);
+        const response = await fetch('/.netlify/functions/openai', requestOptions);
         const data = await response.json();
 
         // 在页面上显示解释结果
